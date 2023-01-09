@@ -1,0 +1,36 @@
+:root {
+  --gradient: linear-gradient(90deg, #575757 0%, #050505 50%);
+  --light: rgb(67, 67, 67);
+  --grey: #010101;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+.main-bgcolor {
+  background-image: var(--gradient);
+}
+.light-color {
+  color: var(--light) !important;
+}
+.grey-bgcolor {
+  background: var(--grey);
+}
+.company_brand {
+  font-size: x-large;
+  font-family: cursive;
+}
+
+.section {
+  padding: 50px 0;
+  color: white;
+  height: max-content;
+}
+
+.section-body {
+  padding: 20px 0;
+}

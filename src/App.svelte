@@ -1,0 +1,17 @@
+<script>
+  import Navbar from "./components/Navbar/Navbar.svelte";
+  import Banner from "./components/Banner/Banner.svelte";
+  import About from "./components/About/About.svelte";
+  import DATA from "./data/data";
+  console.log(DATA);
+</script>
+
+<link
+  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+  rel="stylesheet"
+/>
+
+<!--Navbar-->
+<Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
+<Banner bannerData={DATA.BANNER_DATA} />
+<About aboutData={DATA.ABOUT_DATA} />
