@@ -199,7 +199,7 @@
 
   .about_ops svg {
     margin-bottom: 25px;
-    margin-right: 250px;
+    margin-right: 130px;
   }
 
   .about_ops li {
