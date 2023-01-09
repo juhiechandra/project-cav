@@ -15,17 +15,10 @@ const ABOUT_DATA = {
   HEADING: "Our goal and mission",
   DESCRIPTION:
     "Ensuring the security and accuracy of your cryptocurrency transactions,one wallet address verification at a time.",
-  TITLE: "Why we're different",
-  IMAGE_URL: "images/network.png",
-  WHY_CHOOSE_US_LIST: [
-    "We provides Cost-Effective Digital Marketing than Others.",
-    "High customer statisfaction and experience.",
-    "Marketing efficiency and quick time to value.",
-    "Clear & transparent fee structure.",
-    "We provides Marketing automation which is an integral platform that ties all of your digital marketing together.",
-    "A strong desire to establish long lasting business partnerships.",
-    "Provide digital marketing to mobile consumer.",
-    "We provides wide range to services in reasonable prices",
+  OUR_GOALS: [
+    "Our company was founded with the goal of providing a reliable and secure platform for verifying cryptocurrency wallet addresses. ",
+    "Our team is dedicated to constantly improving and updating our system to ensure the highest level of accuracy and efficiency.",
+    "We prioritize the security of our users and take all necessary measures to protect their personal information and transactions.",
   ],
 };
 const SERVICE_DATA = {
