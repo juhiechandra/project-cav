@@ -4,6 +4,7 @@ const NAVBAR_DATA = [
   { id: 1, url: "/", label: "Home" },
   { id: 2, url: "#about-us", label: "About us" },
   { id: 3, url: "#howtostart", label: "How to start" },
+  { id: 4, url: "#social", label: "Contact Us" },
 ];
 const BANNER_DATA = {
   HEADING: "One place for Crypto address validation",
@@ -32,39 +33,19 @@ const HOWTOSTART_DATA = {
     "Click the Check button to initiate the verification process.",
     "If the wallet address is valid, you will see a confirmation message. If it is invalid, an error message will be displayed.",
   ],
-  HINT: "This is a hint text to help user.",
-};
-
-const TESTIMONIAL_DATA = {
-  HEADING: "What clients say?",
-  TESTIMONIAL_LIST: [
-    {
-      DESCRIPTION:
-        "Nixalar has made a huge difference to our business with his good work and knowledge of SEO and business to business marketing techniques. Our search engine rankings are better than ever and we are getting more people contacting us thanks to Jomer’s knowledge and hard work.",
-      IMAGE_URL: "images/user1.jpg",
-      NAME: "Julia hawkins",
-      DESIGNATION: "Co-founder at ABC",
-    },
-    {
-      DESCRIPTION:
-        "Nixalar and his team have provided us with a comprehensive, fast and well planned digital marketing strategy that has yielded great results in terms of content, SEO, Social Media. His team are a pleasure to work with, as well as being fast to respond and adapt to the needs of your brand.",
-      IMAGE_URL: "images/user2.jpg",
-      NAME: "John Smith",
-      DESIGNATION: "Co-founder at xyz",
-    },
-  ],
+  HINT: "We hope that this manual has been helpful and that you will have a smooth experience using our platform. If you have any further questions or concerns, please don't hesitate to reach out to our support team. We are here to help!",
 };
 
 const SOCIAL_DATA = {
-  HEADING: "Find us on social media",
-  IMAGES_LIST: [
-    "images/facebook-icon.png",
-    "images/instagram-icon.png",
-    "images/whatsapp-icon.png",
-    "images/twitter-icon.png",
-    "images/linkedin-icon.png",
-    "images/snapchat-icon.png",
-  ],
+  HEADING: "Join Our Community",
+  // IMAGES_LIST: [
+  //   "images/facebook-icon.png",
+  //   "images/instagram-icon.png",
+  //   "images/whatsapp-icon.png",
+  //   "images/twitter-icon.png",
+  //   "images/linkedin-icon.png",
+  //   "images/snapchat-icon.png",
+  // ],
 };
 
 const FOOTER_DATA = {
@@ -86,7 +67,6 @@ const MOCK_DATA = {
   BANNER_DATA,
   HOWTOSTART_DATA,
   ABOUT_DATA,
-  TESTIMONIAL_DATA,
   SOCIAL_DATA,
   FOOTER_DATA,
 };

@@ -199,7 +199,7 @@
 
   .about_ops svg {
     margin-bottom: 25px;
-    margin-right: 130px;
+    margin-right: 70px;
   }
 
   .about_ops li {
@@ -207,7 +207,7 @@
     padding-left: 33px;
     padding-bottom: 10px;
     margin: 15px 0;
-    width: 350px;
+    width: 280px;
   }
   .about_ops a {
     color: aliceblue;

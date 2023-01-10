@@ -1,5 +1,5 @@
 :root {
-  --gradient: linear-gradient(90deg, #575757 0%, #050505 50%);
+  --gradient: linear-gradient(90deg, #717070 0%, #1d1d1d 50%);
   --light: rgb(67, 67, 67);
   --grey: #010101;
 }
@@ -19,6 +19,23 @@ body {
 }
 .grey-bgcolor {
   background: var(--grey);
+}
+.start-bgcolor {
+  background-image: radial-gradient(
+    circle,
+    #bb2d3c,
+    #98234a,
+    #70234c,
+    #482143,
+    #271b2f,
+    #231a30,
+    #1e1932,
+    #171933,
+    #202352,
+    #2e2b72,
+    #403392,
+    #5738b2
+  );
 }
 .company_brand {
   font-size: x-large;

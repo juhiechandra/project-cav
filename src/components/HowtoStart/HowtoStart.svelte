@@ -3,7 +3,7 @@
   const { HEADING, DESCRIPTION, STEPS, HINT } = startData;
 </script>
 
-<section class="grey-bgcolor" id="banner">
+<section class="start-bgcolor" id="howtostart">
   <div class="container">
     <div class="row">
       <div class="row-md-6 start_items">
@@ -14,6 +14,8 @@
             <li>{step}</li>
           {/each}
         </ol>
+
+        <p>{HINT}</p>
       </div>
     </div>
   </div>
@@ -42,20 +44,21 @@
   h1 {
     display: inline-block;
     width: 600px;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 600;
     margin-top: 100px;
     margin-bottom: 50px;
-    text-align: left;
+    text-align: center;
   }
 
   ol {
     color: rgb(252, 252, 252);
-    text-align: left;
+    text-align: initial;
   }
 
   li {
-    padding-bottom: 15px;
-    margin-left: 90px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    width: 500px;
   }
 </style>
