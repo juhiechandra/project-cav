@@ -4,7 +4,7 @@ const NAVBAR_DATA = [
   { id: 1, url: "/", label: "Home" },
   { id: 2, url: "#about-us", label: "About us" },
   { id: 3, url: "#howtostart", label: "How to start" },
-  { id: 4, url: "#social", label: "Contact Us" },
+  { id: 4, url: "#footer", label: "Contact Us" },
 ];
 const BANNER_DATA = {
   HEADING: "One place for Crypto address validation",
@@ -36,30 +36,28 @@ const HOWTOSTART_DATA = {
   HINT: "We hope that this manual has been helpful and that you will have a smooth experience using our platform. If you have any further questions or concerns, please don't hesitate to reach out to our support team. We are here to help!",
 };
 
-const SOCIAL_DATA = {
+const FOOTER_DATA = {
   HEADING: "Join Our Community",
-  // IMAGES_LIST: [
-  //   "images/facebook-icon.png",
-  //   "images/instagram-icon.png",
-  //   "images/whatsapp-icon.png",
-  //   "images/twitter-icon.png",
-  //   "images/linkedin-icon.png",
-  //   "images/snapchat-icon.png",
-  // ],
+  HINT: "The security of your money is just as important as the amount you have. Protect it at all costs.",
+  CONTACT_DETAILS: {
+    ADDRESS: "India",
+    MOBILE: "+91 8883332255",
+    EMAIL: "cryptorenim@gmail.com",
+  },
 };
 
-const FOOTER_DATA = {
-  DESCRIPTION:
-    "We are typically focused on result-based maketing in the digital world. Also, we evaluate your brand’s needs and develop a powerful strategy that maximizes profits.",
-  CONTACT_DETAILS: {
-    HEADING: "Contact us",
-    ADDRESS: "La trobe street docklands, Melbourne",
-    MOBILE: "+1 61234567890",
-    EMAIL: "nixalar@gmail.com",
-  },
-  SUBSCRIBE_NEWSLETTER: "Subscribe newsletter",
-  SUBSCRIBE: "Subscribe",
-};
+// const FOOTER_DATA = {
+//   DESCRIPTION:
+//     "We are typically focused on result-based maketing in the digital world. Also, we evaluate your brand’s needs and develop a powerful strategy that maximizes profits.",
+//   CONTACT_DETAILS: {
+//     HEADING: "Contact us",
+//     ADDRESS: "La trobe street docklands, Melbourne",
+//     MOBILE: "+1 61234567890",
+//     EMAIL: "nixalar@gmail.com",
+//   },
+//   SUBSCRIBE_NEWSLETTER: "Subscribe newsletter",
+//   SUBSCRIBE: "Subscribe",
+// };
 
 const MOCK_DATA = {
   HEADER,
@@ -67,7 +65,6 @@ const MOCK_DATA = {
   BANNER_DATA,
   HOWTOSTART_DATA,
   ABOUT_DATA,
-  SOCIAL_DATA,
   FOOTER_DATA,
 };
 export default MOCK_DATA;
