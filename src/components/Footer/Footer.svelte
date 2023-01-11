@@ -1,6 +1,6 @@
 <script>
   export let footerData = {};
-  const { HEADING, HINT} = footerData;
+  const { HEADING, HINT } = footerData;
 
   // const { ADDRESS, MOBILE, EMAIL } = CONTACT_DETAILS;
 </script>
@@ -28,12 +28,12 @@
 
       <p class="footer-company-name">Cryptorenim ©2023 All rights reserved.</p>
 
-      <div class="footer-icons">
+      <!-- <div class="footer-icons">
         <a href="/"><i class="fa fa-facebook" /></a>
         <a href="/"><i class="fa fa-instagram" /></a>
         <a href="/"><i class="fa fa-linkedin" /></a>
         <a href="/"><i class="fa fa-github" /></a>
-      </div>
+      </div> -->
     </div>
 
     <div class="footer-right">
@@ -124,9 +124,9 @@
 
   /* Footer social icons */
 
-  .footer-distributed .footer-icons {
+  /* .footer-distributed .footer-icons {
     margin-top: 30px;
-  }
+  } */
 
   .footer-distributed .footer-icons a {
     display: inline-block;

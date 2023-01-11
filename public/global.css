@@ -21,20 +21,20 @@ body {
   background: var(--grey);
 }
 /* .start-bgcolor {
-  background-image: linear-gradient(
-    to right,
-    #303030,
-    #292929,
-    #212121,
-    #1a1a1a,
-    #131313,
-    #121213,
-    #121212,
-    #111112,
-    #171718,
-    #1d1d1e,
-    #232224,
-    #29282a
+  background-image: radial-gradient(
+    circle,
+    #bb2d3c,
+    #98234a,
+    #70234c,
+    #482143,
+    #271b2f,
+    #231a30,
+    #1e1932,
+    #171933,
+    #202352,
+    #2e2b72,
+    #403392,
+    #5738b2
   );
 } */
 .company_brand {
