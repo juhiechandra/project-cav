@@ -1,14 +1,22 @@
 <script>
   export let footerData = {};
-  const { HEADING, HINT, CONTACT_DETAILS } = footerData;
+  const { HEADING, HINT} = footerData;
 
-  const { ADDRESS, MOBILE, EMAIL } = CONTACT_DETAILS;
+  // const { ADDRESS, MOBILE, EMAIL } = CONTACT_DETAILS;
 </script>
+
+<svelte:head>
+  <script
+    src="https://kit.fontawesome.com/f73c42b72b.js"
+    crossorigin="anonymous"
+  ></script>
+</svelte:head>
 
 <section class="grey-bgcolor" id="footer">
   <footer class="footer-distributed">
     <div class="footer-left">
-      <h3>Cryptorenim<span>logo</span></h3>
+      <h3>{HEADING}<span>logo</span></h3>
+      <p class="hint_text">{HINT}</p>
 
       <p class="footer-links">
         <a href="/">Home</a>
@@ -18,22 +26,23 @@
         <a href="/#howtostart">How to Start</a>
       </p>
 
-      <p class="footer-company-name">Cryptorenim ©2023</p>
+      <p class="footer-company-name">Cryptorenim ©2023 All rights reserved.</p>
 
-      <!-- <div class="footer-icons">
+      <div class="footer-icons">
         <a href="/"><i class="fa fa-facebook" /></a>
-        <a href="/"><i class="fa fa-twitter" /></a>
+        <a href="/"><i class="fa fa-instagram" /></a>
         <a href="/"><i class="fa fa-linkedin" /></a>
         <a href="/"><i class="fa fa-github" /></a>
-      </div> -->
+      </div>
     </div>
 
     <div class="footer-right">
       <p>Contact Us</p>
 
-      <form action="/" method="post">
-        <input type="text" name="email" placeholder="Email" />
-        <textarea name="message" placeholder="Message" />
+      <!-- method="post" -->
+      <form action="/">
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="message" placeholder="Message" required />
         <button>Send</button>
       </form>
     </div>
@@ -41,11 +50,6 @@
 </section>
 
 <style>
-  section {
-    padding-top: 5%;
-    min-height: max-content;
-  }
-
   @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
   * {
@@ -53,7 +57,6 @@
   }
 
   .footer-distributed {
-    background: #444;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -66,8 +69,8 @@
   section {
     width: 100%;
     display: inline-block;
-    background: #ccc;
-    height: 60vh;
+
+    height: max-content;
     text-align: center;
     font-size: 22px;
     font-weight: 700;
@@ -92,6 +95,11 @@
     color: #5383d3;
   }
 
+  .footer-distributed .hint_text {
+    color: #ccc;
+    font-style: italic;
+    width: 30vh;
+  }
   /* Footer links */
 
   .footer-distributed .footer-links {
@@ -116,9 +124,9 @@
 
   /* Footer social icons */
 
-  /* .footer-distributed .footer-icons {
-    margin-top: 40px;
-  } */
+  .footer-distributed .footer-icons {
+    margin-top: 30px;
+  }
 
   .footer-distributed .footer-icons a {
     display: inline-block;

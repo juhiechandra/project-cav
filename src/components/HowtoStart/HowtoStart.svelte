@@ -3,7 +3,7 @@
   const { HEADING, DESCRIPTION, STEPS, HINT } = startData;
 </script>
 
-<section class="start-bgcolor" id="howtostart">
+<section class="grey-bgcolor" id="howtostart">
   <div class="container">
     <div class="row">
       <div class="row-md-6 start_items">

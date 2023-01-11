@@ -37,13 +37,13 @@ const HOWTOSTART_DATA = {
 };
 
 const FOOTER_DATA = {
-  HEADING: "Join Our Community",
+  HEADING: "Cryptorenim",
   HINT: "The security of your money is just as important as the amount you have. Protect it at all costs.",
-  CONTACT_DETAILS: {
-    ADDRESS: "India",
-    MOBILE: "+91 8883332255",
-    EMAIL: "cryptorenim@gmail.com",
-  },
+  // CONTACT_DETAILS: {
+  //   ADDRESS: "India",
+  //   MOBILE: "+91 8883332255",
+  //   EMAIL: "cryptorenim@gmail.com",
+  // },
 };
 
 // const FOOTER_DATA = {
