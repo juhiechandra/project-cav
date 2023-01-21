@@ -11,6 +11,7 @@
         <p>{DECRIPTION}</p>
       </div>
       <div class="col-md-6" />
+
       <div class="input-group mb-3 fill_inp">
         <select
           class="form-select select_fill"
@@ -33,8 +34,10 @@
           placeholder="Enter the wallet address"
           aria-label="Enter the wallet address"
         />
+
         <button class="btn fill_btn" type="button">Check</button>
       </div>
+
       <p class="hint_text">{HINT}</p>
     </div>
     <svg
