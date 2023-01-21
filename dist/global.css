@@ -1,0 +1,53 @@
+:root {
+  --gradient: linear-gradient(90deg, #717070 0%, #1d1d1d 50%);
+  --light: rgb(67, 67, 67);
+  --grey: #010101;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+.main-bgcolor {
+  background-image: var(--gradient);
+}
+.light-color {
+  color: var(--light) !important;
+}
+.grey-bgcolor {
+  background: var(--grey);
+}
+/* .start-bgcolor {
+  background-image: linear-gradient(
+    to right,
+    #303030,
+    #292929,
+    #212121,
+    #1a1a1a,
+    #131313,
+    #121213,
+    #121212,
+    #111112,
+    #171718,
+    #1d1d1e,
+    #232224,
+    #29282a
+  );
+} */
+.company_brand {
+  font-size: x-large;
+  font-family: cursive;
+}
+
+.section {
+  padding: 50px 0;
+  color: white;
+  height: max-content;
+}
+
+.section-body {
+  padding: 20px 0;
+}
