@@ -1,31 +1,6 @@
 <script>
   export let bannerData = {};
   const { HEADING, DECRIPTION, HINT } = bannerData;
-
-  import { validate } from "crypto-address-validator";
-
-  let address = "";
-  let coin = "btc";
-  let errorMessage = "";
-
-  function onInputChange(event) {
-    address = event.target.value;
-    let isValid = validate(address, coin);
-    if (!isValid) {
-      errorMessage = "Invalid address for the selected coin";
-    } else {
-      errorMessage = "";
-    }
-  }
-  function onCoinChange(event) {
-    coin = event.target.value;
-    let isValid = validate(address, coin);
-    if (!isValid) {
-      errorMessage = "Invalid address for the selected coin";
-    } else {
-      errorMessage = "";
-    }
-  }
 </script>
 
 <section class="grey-bgcolor" id="banner">
@@ -41,7 +16,6 @@
         <select
           class="form-select select_fill"
           aria-label="Default select example"
-          on:change={onCoinChange}
         >
           <option selected>Select coin</option>
           <option value="btc">
@@ -59,8 +33,6 @@
           class="form-control"
           placeholder="Enter the wallet address"
           aria-label="Enter the wallet address"
-          bind:value={address}
-          on:input={onInputChange}
         />
 
         <button class="btn fill_btn" type="button">Check</button>
