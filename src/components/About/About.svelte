@@ -217,4 +217,39 @@
     color: white;
     background-color: rgb(79, 6, 151);
   }
+
+  /* Media query for small screens */
+  @media (max-width: 770px) {
+    #about-us {
+      padding: 10px;
+    }
+    #about-us .about_head {
+      text-align: center;
+    }
+    .about_head h1 {
+      font-size: 25px;
+    }
+
+    li {
+      font-size: 15px;
+    }
+    #about-us .descri {
+      font-size: 13px;
+      width: auto;
+    }
+    #about-us .section-body {
+      flex-wrap: wrap;
+    }
+    #about-us .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    #about-us svg {
+      width: 80%;
+      height: 100%;
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
 </style>

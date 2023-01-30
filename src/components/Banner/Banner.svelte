@@ -162,4 +162,31 @@
     margin-top: 1px;
     margin-left: 120px;
   }
+
+  @media only screen and (max-width: 1000px) {
+    h1 {
+      display: inline-block;
+      width: 100%;
+      font-size: 25px;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .banner_items p {
+      width: auto;
+      font-size: 15px;
+      text-align: center;
+    }
+    .fill_inp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .form-select,
+    .form-control,
+    .fill_btn {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
 </style>

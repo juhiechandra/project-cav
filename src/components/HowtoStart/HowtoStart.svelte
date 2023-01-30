@@ -61,4 +61,34 @@
     margin-left: 200px;
     width: 500px;
   }
+
+  @media (max-width: 800px) {
+    .start_items {
+      text-align: center;
+    }
+    .start_items h1 {
+      font-size: 25px;
+    }
+    .start_items p {
+      width: 100%;
+      text-align: center;
+    }
+    h1 {
+      display: inline-block;
+      width: 100%;
+      font-size: 25px;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    ol {
+      margin-left: 0;
+      text-align: left;
+    }
+    li {
+      padding-bottom: 10px;
+      margin-left: 0;
+      width: 100%;
+    }
+  }
 </style>
